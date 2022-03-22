@@ -1,0 +1,20 @@
+1	Drake	21,531,597,511
+Link: artist/3TVXtAsR1Inumwj472S9r4.html
+2	J Balvin	15,613,249,822
+Link: artist/1vyhD5VmyZ7KMfW5gqLgo5.html
+3	Post Malone	15,405,647,648
+Link: artist/246dkjvS1zLTtiykXe5h60.html
+4	Bad Bunny	15,075,815,890
+Link: artist/4q3ewBCX7sLwd24euuV69X.html
+5	Ed Sheeran	14,785,597,044
+Link: artist/6eUKZXaKkcviH0Ku9w2n3V.html
+6	Justin Bieber	13,704,602,952
+Link: artist/1uNFoZAHBGtllmzznpCI3s.html
+7	Ozuna	12,475,198,853
+Link: artist/1i8SpTcr7yvPOmcqrbnVXY.html
+8	Ariana Grande	11,295,263,161
+Link: artist/66CXWjxzNUsdJxJ2JdwvnR.html
+9	Khalid	9,736,637,362
+Link: artist/6LuN9FCkKOj5PcnpouEgny.html
+10	The Weeknd	9,407,403,270
+Link: artist/1Xyo4u8uXC1ZmMpatF05PJ.html
