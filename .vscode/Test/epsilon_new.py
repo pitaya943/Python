@@ -60,5 +60,3 @@ if __name__ == '__main__':
     plt.ylabel('Mean Rate of choosing best arm')
     plt.xlabel('Time Step')
     plt.show()
-    
-![image](https://github.com/pitaya943/python/blob/master/.vscode/Test/epsilonGreedy.png)
