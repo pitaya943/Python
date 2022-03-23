@@ -1,14 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import stats
 import random
 
 
 class EpsilonGreedy:
     def __init__(self, action):
-        self.num_arm = 10
-        self.prbs = np.random.rand(self.num_arm)
-        # self.prbs = [0.5, 0.3, 0.7, 0.6, 0.5, 0.1, 0.2, 0.4, 0.8, 0.75, ]
+        self.num_arm = 3
+        # self.prbs = np.random.rand(self.num_arm)
+        self.prbs = [0.9, 0.6, 0.3]
 
         self.action = action
         self.reward = [0]

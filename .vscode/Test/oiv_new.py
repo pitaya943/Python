@@ -23,6 +23,7 @@ def oivExperiment(means, times, bound):
     # , Bandit(means[3], bound), Bandit(
     #     means[4], bound), Bandit(means[5], bound), Bandit(means[6], bound), Bandit(means[7], bound), Bandit(means[8], bound), Bandit(means[9], bound)
     samples = np.zeros(times)
+    explore = []
 
     for i in range(times):
         index = np.argmax([bd.mean for bd in bandits])
@@ -39,15 +40,15 @@ if __name__ == '__main__':
     means = [0.9, 0.6, 0.3]
     # means = np.random.rand(10)
     # print(means)
-    times = int(10e3)
+    times = int(10e4)
     eps_avg = epsilonExperiment(means, times, epsilon=0.1)
     oiv_avg = oivExperiment(means, times, bound=10)
 
     plt.plot(eps_avg, label='Epsilon = 0.1')
     plt.plot(oiv_avg, label='Optmistic Initail Values = 10')
     plt.legend(loc='lower right')
-    # plt.xscale('log')
-    # plt.title('Moving Average Plot - Log Scale')
+    plt.xscale('log')
+    plt.title('Moving Average Plot - Log Scale')
     plt.ylabel('Mean Rate of choosing best arm')
     plt.xlabel('Time Step')
     plt.show()
